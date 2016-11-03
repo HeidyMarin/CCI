@@ -1,5 +1,4 @@
 #include "Vector.h"
-#include<new>
 #include<iostream>
 using namespace std;
 
@@ -27,7 +26,7 @@ void Vector::setStart(double sx, double sy){
 }
 
 void Vector::setEnd(double ex, double ey){
-	end.modifyPoint(ex, ey)
+	end.modifyPoint(ex, ey);
 }
 
 void Vector::modifyVector(double sx, double sy, double ex, double ey){
