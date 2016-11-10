@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+//2.2
+# define min(x, y) (x < y ? x : y)
+//2.1
+/*template < typename T>
+T min( const T t1 , const T t2) {
+	return t1 < t2 ? t1 : t2;
+}*/
+
+int main() {
+	
+	cout<< min<int>(6,9);
+	
+	return 0;
+}
