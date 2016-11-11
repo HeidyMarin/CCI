@@ -5,7 +5,7 @@ class Grafo {
 protected:
 	map <int , vector <int > > outgoing ;
 public:
-	Grafo ( const vector <int > & inicioP , const vector <int > & finalP );
+	Grafo ( const vector <int > & inicioP , const vector <int > & finP );
 	int numOutgoing ( const int nodeID ) const ;
 	const vector <int > & adjacent ( const int nodeID ) const ;
 };
