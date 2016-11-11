@@ -2,12 +2,14 @@
 #define GRAFO_H
 
 class Grafo {
-private:
 protected:
+	map <int , vector <int > > outgoing ;
 public:
-	Grafo();
-	~Grafo();
+	Grafo ( const vector <int > & startPoints , const vector <int > & endPoints );
+	int numOutgoing ( const int nodeID ) const ;
+	const vector <int > & adjacent ( const int nodeID ) const ;
 };
 
 #endif
+
 
