@@ -7,7 +7,8 @@ void menu(){
 	cout<<"2:  Eliminar:\n";
 	cout<<"3:  Modificar:\n";
 	cout<<"4:  visualizar BD:\n";
-	cout<<"5: Salir";
+	cout<<"5: Salir \n";
+	cout<<"\n";
 }
 void empaquetar(Persona *x)
 {
