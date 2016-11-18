@@ -3,6 +3,7 @@
 void menu(){
 
 	cout<<"\nINGRESE OPCION: \n";
+	cout<<"\n";
 	cout<<"1:  Insertar:\n";
 	cout<<"2:  Eliminar:\n";
 	cout<<"3:  Modificar:\n";
