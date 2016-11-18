@@ -31,17 +31,18 @@ void Base::insertar(string CNombre,string CApellido,string CDNI,int CEdad)
 }
 void Base::mostrar(void)
 {
-	cout<<"-------------------------------------------------------"<<endl;
-	cout<<"\n"<<"Nro."<<"CLAVE"<<"\t"<<"NOMBRE"<<"\t"<<"APELL."<<"\t"<<"D.N.I"<<"\t"<<"EDAD"<<endl;
-	cout<<"-------------------------------------------------------"<<endl;
+	cout<<"====================================================================="<<endl;
+	cout<<"|Nro. "<<"  CLAVE "<<"\t|"<<"  NOMBRE"<<"\t|"<<"  APELL."<<"\t|"<<"  D.N.I"<<"\t|"<<"  EDAD|"<<endl;
+	cout<<"====================================================================="<<endl;
 	for(int i=0;i<tam;i++)
 	{
 		if(BD[i]->valido==1)
 		{
-			cout<<"\n"<<i+1<<"\t"<<BD[i]->clave<<"\t"<<BD[i]->Nombre<<"\t"<<BD[i]->Apellido<<"\t"<<BD[i]->DNI<<"\t"<<BD[i]->Edad;		
+			cout<<"\n"<<i+1<<"\t"<<BD[i]->clave<<"\t"<<BD[i]->Nombre<<"\t"<<BD[i]->Apellido<<"\t"<<BD[i]->DNI<<"\t"<<BD[i]->Edad<<endl;		
 		}
 		
 	}
+	cout<<"====================================================================="<<endl;
 }
 void Base::eliminar(int clave)
 {
