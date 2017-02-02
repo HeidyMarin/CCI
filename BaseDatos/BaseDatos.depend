@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1486038423 source:d:\cv-cci\basedatos\main.cpp
+	"Funciones.h"
+
+1485971916 d:\cv-cci\basedatos\include\funciones.h
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"base.h"
+
+1486038324 d:\cv-cci\basedatos\include\base.h
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+	"Persona.h"
+
+1485993608 d:\cv-cci\basedatos\include\persona.h
+	<iostream>
+	<string>
+
+1486036352 source:d:\cv-cci\basedatos\src\base.cpp
+	"Base.h"
+	<windows.h>
+
+1486035935 source:d:\cv-cci\basedatos\src\funciones.cpp
+	"Funciones.h"
+
+1485976938 source:d:\cv-cci\basedatos\src\persona.cpp
+	"Persona.h"
+
+1486035953 source:d:\cv-cci\basedatos\src\paciente.cpp
+	"Paciente.h"
+
+1486035953 d:\cv-cci\basedatos\include\paciente.h
+
